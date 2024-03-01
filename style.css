@@ -1,0 +1,65 @@
+/* element selector */
+/* ref: colorhunt.co */
+body {
+    background-color: #CCD3CA;
+}
+
+/* class selector */
+.col {
+    width: 24%;
+    background-color: burlywood;
+    float: left;
+    margin: 0 5px;
+}
+
+.img-responsive {
+    width: 100px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: #F6FDC3;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.img-rounded {
+    /* top-left top-right bottom-right bottom-left*/
+    border-radius: 50% 50% 50% 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.col2 {
+    width: 32.33%;
+    background-color: burlywood;
+    float: left;
+    margin: 0 5px;
+}
+
+.row :after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col3 {
+    width: 65.67%;
+    background-color: red;
+    float: left;
+    margin: 0 5px;
+}
+
+.col4 {
+    width: 32.33%;
+    background-color: rgb(33, 21, 41);
+    float: left;
+    margin: 0 5px;
+}
