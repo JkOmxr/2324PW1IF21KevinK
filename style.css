@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* element selector */
+/* ref: colorhunt.co */
+body {
+    background-color: #CCD3CA;
+}
+
+/* mobile / HP */
+body {
+    background-color: plum;
+}
+
+/* CSS tablet   */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+/* CSS Desktop */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: green;
+    }
+
+    .col {
+    width: 25%;
+    background-color: burlywood;
+    float: left;
+    }
+
+    .col2 {
+    width: 33.33%;
+    background-color: burlywood;
+    float: left;
+    }
+
+}
+
+/* class selector */
+
+.img-responsive {
+    width: 75%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: #F6FDC3;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.img-rounded {
+    /* top-left top-right bottom-right bottom-left*/
+    border-radius: 50% 50% 50% 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.row :after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col3 {
+    width: 50%;
+    background-color: red;
+    float: left;
+}
+
+.col4 {
+    width: 50%;
+    background-color: rgb(33, 21, 41);
+    float: left;
+}
